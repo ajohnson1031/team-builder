@@ -4,11 +4,13 @@ import TeamList from "./components/TeamList";
 import "./App.css";
 
 function App() {
-  const [teamState, setTeamState] = useState(Characters);
+  const teamState = useState(Characters);
   return (
     <div className="App">
-      <header />
-      <TeamList characters={teamState} />
+      <header>
+        <h1>Meet the Team</h1>
+      </header>
+      <TeamList characters={teamState[0]} />
     </div>
   );
 }

@@ -23,6 +23,33 @@
   color: #61dafb;
 }
 
+.teamlist-container {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.teammate {
+  margin: 30px 0 0 !important;
+}
+
+.teammate-header {
+  background-color: #122a69;
+  color: #fff !important;
+  padding: 5px 0;
+}
+
+.teammate ul {
+  list-style-type: none !important;
+  padding: 0 20px 10px;
+  text-align: left;
+}
+
+.content {
+  padding: 0 !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
