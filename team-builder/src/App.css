@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "star-trek";
+  src: url("./fonts/star_trek_enterprise.woff2") format("woff2"),
+    url("./fonts/star_trek_enterprise.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -10,13 +18,14 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
+  color: #c3a34e;
+  font-family: "star-trek" !important;
+  font-weight: bold;
 }
 
 .App-link {
@@ -31,7 +40,8 @@
 }
 
 .teammate {
-  margin: 30px 0 0 !important;
+  margin: 15px 0 !important;
+  box-shadow: none !important;
 }
 
 .teammate-header {
@@ -48,6 +58,30 @@
 
 .content {
   padding: 0 !important;
+}
+
+form {
+  width: 80%;
+  background-color: rgba(195, 163, 78, 0.95);
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+.form-fields {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+form .field {
+  width: 40%;
+  margin: 0 5% 15px !important;
+}
+
+form button {
+  margin: 25px auto 10px !important;
+  width: 30%;
 }
 
 @keyframes App-logo-spin {

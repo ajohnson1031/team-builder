@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: transparent;
   background-image: url("https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F883834%252F226fb943-2bac-4950-94a5-beaf49ac0bbe.gif%252Ffull-fit-in__950x534.gif?signature=lG0lbTu4gq65HUe4eEm6qbanHLI=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com") !important;
-  background-repeat: no-repeat !important;
+  /* background-repeat: no-repeat !important; */
   background-size: cover !important;
 }
 
