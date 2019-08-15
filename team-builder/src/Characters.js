@@ -3,43 +3,38 @@ const Characters = [
     name: "James T. Kirk",
     rank: "Captain",
     serial: "SC937-0176 CEC",
-    img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/89abe98de6071178edb1b28901a8f459.jpg?itok=UEwq0IRl"
+    img: "https://media.giphy.com/media/yNvlalDnIAATu/source.gif"
   },
   {
     name: "Spock",
     rank: "Captain, Retired",
     serial: "S179-276SP",
-    img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/8b10a9280bd46b8874af9b5cadec91d5.jpg?itok=3V9YqePf"
+    img: "https://media.giphy.com/media/B51EAJ0Frooq4/source.gif"
   },
   {
     name: "Leonard H. Mccoy",
     rank: "Admiral, Retired",
     serial: "Not Indicated",
-    img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/fe256faf97c200de0f7486ddf56c02f6.jpg?itok=ss-QBf0t"
+    img: "https://media.giphy.com/media/114SjbLQoRMFt6/giphy.gif"
   },
   {
     name: "Uhura",
     rank: "Commander",
     serial: "Not Indicated",
     img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/b8b12f949378552c21f28deff8ba8eb6.jpg?itok=jP0TJtmk"
+      "https://thumbs.gfycat.com/GiganticImperturbableAdamsstaghornedbeetle-small.gif"
   },
   {
     name: "Hikaru Sulu",
     rank: "Captain",
     serial: "Not Indicated",
-    img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/f6a8dd1c954c8506aadc764cc32b895e.jpg?itok=l5_4d87m"
+    img: "https://media.giphy.com/media/23j1lrsW3py7u/source.gif"
   },
   {
     name: "Montgomery 'Scotty' Scott",
     rank: "Captain",
     serial: "SE-197-54T",
-    img:
-      "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/51425b752a0b402ed3effc83fc4bbb74.jpg?itok=ogw5GJPk"
+    img: "https://i.gifer.com/NTEK.gif"
   }
 ];
 
